@@ -145,7 +145,7 @@ body {
 
 .container {
   position: absolute;
-  bottom: 250px;
+  bottom: 150px;
   display: none;
   justify-content: center;
 }
@@ -161,21 +161,23 @@ body {
   pointer-events: none;
 }
 .button {
-  width: 35px;
-  height: 35px;
+  width: 55px;
+  height: 55px;
   font-size: 20px;
   color: #fff;
   background-color: transparent;
   border-radius: 6px;
   cursor: pointer;
   border: 1px solid #fff;
+  padding: 10px;
 }
 
 .link {
   display: none;
-  width: 35px;
-  height: 35px;
+  width: 55px;
+  height: 55px;
   text-align: center;
+  padding: 10px;
   font-size: 20px;
   color: #fff;
   background-color: transparent;
