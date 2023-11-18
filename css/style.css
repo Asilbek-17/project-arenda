@@ -145,7 +145,7 @@ body {
 
 .container {
   position: absolute;
-  bottom: 150px;
+  bottom: 50px;
   display: none;
   justify-content: center;
 }
