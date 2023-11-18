@@ -2,6 +2,9 @@ const elButtons = document.querySelectorAll('.btn-1');
 const elButtons2 = document.querySelectorAll('.btn-2');
 const elSelection = document.querySelector(".hudud");
 const elWrapper = document.querySelector('.wrapper');
+const elBox = document.querySelector('.box');
+const elBox2 = document.querySelector('.box-2');
+const elBox3= document.querySelector('.box-3');
 const elPaginotion = document.querySelector('.container');
 const elInfoBox = document.querySelector('.info-box');
 
@@ -9,7 +12,8 @@ const elInfoBox = document.querySelector('.info-box');
 elButtons.forEach(btn => {
     btn.addEventListener('click', ()=> {
         elWrapper.innerHTML = ''
-        elWrapper.appendChild(elSelection)
+        elWrapper.appendChild(elBox)
+        elBox.style.display = 'block'
     })
 })
 
@@ -17,7 +21,8 @@ elButtons.forEach(btn => {
 elSelection.addEventListener("change", () => {
     elWrapper.innerHTML = '';
     elButtons2.forEach(btn => {
-        elWrapper.appendChild(btn)
+        elWrapper.appendChild(elBox2)
+        elBox2.style.display = 'flex'
     })
 })
 
