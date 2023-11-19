@@ -10,7 +10,7 @@ const elInfoBox = document.querySelector('.info-box');
 const elBackTo2 = document.querySelector(".back-to-2");
 const elBackTo3 = document.querySelector(".back-to-3");
 const elBackTo4 = document.querySelector(".back-to-4");
-
+const elTitle = document.querySelector('.title')
 
 
 elButtons.forEach(btn => {
@@ -26,6 +26,7 @@ elBackTo2.addEventListener("click", ()=> {
     elButtons.forEach(btn => {
         elWrapper.appendChild(btn)
     })
+    elWrapper.appendChild(elTitle)
 })
 
 elBackTo3.addEventListener("click", ()=> {
