@@ -17,7 +17,7 @@ elButtons.forEach(btn => {
     btn.addEventListener('click', ()=> {
         elWrapper.innerHTML = ''
         elWrapper.appendChild(elBox)
-        elBox.style.display = 'block'
+        elBox.style.display = 'flex'
     })
 })
 

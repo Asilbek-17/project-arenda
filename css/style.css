@@ -198,6 +198,7 @@ body {
 
 .box {
   display: none;
+  justify-content: center;
 }
 
 .box-2 {
