@@ -207,7 +207,10 @@ body {
 
 .box {
   display: none;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .box-2 {
